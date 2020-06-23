@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+railsサーバを立てつつ `curl -D - -o /dev/null http://localhost:3000/users/sign_in -H 'content-type: application/json' -d '{"user": {"email": "test@example.com", "password": "password"}}' `で閲覧できる
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
